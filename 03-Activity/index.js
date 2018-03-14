@@ -44,19 +44,19 @@ while (c < 5) {
 console.log("quadrupled " + quadrupled);
 
 // // 4. When writing conditionals, values defined inside the conditional block exist outside of it
-// if (true) {
-//   var favoriteColor = "red";
-// }
+if (true) {
+  var favoriteColor = "red";
+}
 
-// console.log(favoriteColor); // Prints `red`
+console.log(favoriteColor); // Prints `red`
 
 // // When using let, values defined inside of a conditional block don't exist outside
 
-// let favoriteFood;
+let favoriteFood;
 
-// if (true) {
-//   favoriteFood = "pizza";
-// }
+if (true) {
+  favoriteFood = "pizza";
+}
 
-// // // This works since favoriteColor is not defined inside of a block
-// console.log(favoriteFood); // Prints `pizza`
+// // This works since favoriteColor is not defined inside of a block
+console.log(favoriteFood); // Prints `pizza`
