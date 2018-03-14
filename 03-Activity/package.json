@@ -1,0 +1,11 @@
+{
+  "name": "03-activity",
+  "version": "1.0.0",
+  "description": "In this example we will demonstrate the new `let` identifier and how block scoping works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
